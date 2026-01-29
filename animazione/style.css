@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background-color: #f0f4f8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: column;
+    gap: 300px; 
+    padding-bottom: 100vh;
+}
+
+.forma {
+    width: 150px;
+    height: 150px;
+}
+
+
+.quadrato { background-color: #3498db; }
+
+.cerchio { 
+    background-color: #e74c3c; 
+    border-radius: 50%; 
+}
+
+.triangolo { 
+    width: 0; height: 0; 
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 150px solid #f1c40f;
+}
+
+.rettangolo { 
+    width: 250px; 
+    background-color: #2ecc71; 
+}
+
+.rombo { 
+    background-color: #9b59b6; 
+    transform: rotate(45deg); 
+}
